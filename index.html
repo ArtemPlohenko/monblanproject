@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monblanproject</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/layout.css">
+    <link rel="stylesheet" href="./assets/css/components.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+
+</head>
+
+<body>
+    <img src="./assets/images/vector-1.png" alt="" class="img img--top">
+    <img src="./assets/images/vector-2.png" alt="" class="img img--bottom">
+
+    <header>
+        <div class="container">
+            <a href="/" class="logo">
+                <img src="./assets/images/logo.png" alt="Logo monblanproject">
+            </a>
+
+            <div class="follow-info">
+                <div class="follow-info__group">
+                    <div class="follow-info__title">
+                        <div class="title">monblanproject</div>
+                        <div class="start">Start on <span>17-02-2016</span></div>
+                    </div>
+                    <ul class="follow-info__numbers">
+                        <li>
+                            870
+                            <span>posts</span>
+                        </li>
+                        <li>
+                            11,787
+                            <span>followers</span>
+                        </li>
+                        <li>
+                            112
+                            <span>following</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="flatpickr__wrapper">
+                    <label for="from">Date </label>
+                    <div class="flatpickr__line">
+                        <div class="flatpickr">
+                            <div class="flatpickr__group">
+                                <input type="text" id="from" placeholder="from" data-input>
+                                <div class="flatpickr__btns">
+                                    <button class="flatpickr__input-button" title="clear" data-clear>
+                                        <span class="icon-bx_bx-plus"></span>
+                                    </button>
+                                    <button class="flatpickr__input-button" title="toggle" data-toggle>
+                                        <span class="icon-bx_bx-calendar"></span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flatpickr">
+                            <div class="flatpickr__group">
+                                <input type="text" id="to" placeholder="to" data-input>
+                                <div class="flatpickr__btns">
+                                    <button class="flatpickr__input-button" title="clear" data-clear>
+                                        <span class="icon-bx_bx-plus"></span>
+                                    </button>
+                                    <button class="flatpickr__input-button" title="toggle" data-toggle>
+                                        <span class="icon-bx_bx-calendar"></span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <div class="container">
+
+                <div class="layout__toggle-wrapper">
+                    <button class="button button--flex-view">
+                        <span class="icon-Group-23"></span>
+                    </button>
+                    <button class="button button--block-view">
+                        <span class="icon-Group-13"></span>
+                    </button>
+                </div>
+
+                <div class="layout__wrapper layout__wrapper--flex">
+                    <div class="card">
+                        <img src="./assets/images/cards/img-1.png" alt="Card image" class="card__img">
+                        <div class="card__content">
+                            <div class="card__content--top">
+                                <div class="card-group">
+                                    <h2 class="card-title card--day">Today</h2>
+                                    <ul>
+                                        <li>
+                                            <span class="icon-Group"></span>
+                                            <p>128</p>
+                                        </li>
+                                        <li>
+                                            <span class="icon-Vector-1"></span>
+                                            <p>31</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="card-group">
+                                    <div class="card-title card--day">9-08-2016</div>
+                                    <ul>
+                                        <li>
+                                            <span class="icon-Group"></span>
+                                            <p>67</p>
+                                        </li>
+                                        <li>
+                                            <span class="icon-Vector-1"></span>
+                                            <p>22</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card__content--bottom">
+                                <p>Image upload</p>
+                                <p>11-04-2016</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/images/cards/img-2.png" alt="Card image" class="card__img">
+                        <div class="card__content">
+                            <div class="card__content--top">
+                                <div class="card-group">
+                                    <h2 class="card-title card--day">Today</h2>
+                                    <ul>
+                                        <li>
+                                            <span class="icon-Group"></span>
+                                            <p>128</p>
+                                        </li>
+                                        <li>
+                                            <span class="icon-Vector-1"></span>
+                                            <p>31</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="card-group">
+                                    <div class="card-title card--day">9-08-2016</div>
+                                    <ul>
+                                        <li>
+                                            <span class="icon-Group"></span>
+                                            <p>67</p>
+                                        </li>
+                                        <li>
+                                            <span class="icon-Vector-1"></span>
+                                            <p>22</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card__content--bottom">
+                                <p>Image upload</p>
+                                <p>11-04-2016</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/images/cards/img-3.png" alt="Card image" class="card__img">
+                        <div class="card__content">
+                            <div class="card__content--top">
+                                <div class="card-group">
+                                    <h2 class="card-title card--day">Today</h2>
+                                    <ul>
+                                        <li>
+                                            <span class="icon-Group"></span>
+                                            <p>128</p>
+                                        </li>
+                                        <li>
+                                            <span class="icon-Vector-1"></span>
+                                            <p>31</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="card-group">
+                                    <div class="card-title card--day">9-08-2016</div>
+                                    <ul>
+                                        <li>
+                                            <span class="icon-Group"></span>
+                                            <p>67</p>
+                                        </li>
+                                        <li>
+                                            <span class="icon-Vector-1"></span>
+                                            <p>22</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card__content--bottom">
+                                <p>Image upload</p>
+                                <p>11-04-2016</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/images/cards/img-4.png" alt="Card image" class="card__img">
+                        <div class="card__content">
+                            <div class="card__content--top">
+                                <div class="card-group">
+                                    <h2 class="card-title card--day">Today</h2>
+                                    <ul>
+                                        <li>
+                                            <span class="icon-Group"></span>
+                                            <p>128</p>
+                                        </li>
+                                        <li>
+                                            <span class="icon-Vector-1"></span>
+                                            <p>31</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="card-group">
+                                    <div class="card-title card--day">9-08-2016</div>
+                                    <ul>
+                                        <li>
+                                            <span class="icon-Group"></span>
+                                            <p>67</p>
+                                        </li>
+                                        <li>
+                                            <span class="icon-Vector-1"></span>
+                                            <p>22</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card__content--bottom">
+                                <p>Image upload</p>
+                                <p>11-04-2016</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/images/cards/img-5.png" alt="Card image" class="card__img">
+                        <div class="card__content">
+                            <div class="card__content--top">
+                                <div class="card-group">
+                                    <h2 class="card-title card--day">Today</h2>
+                                    <ul>
+                                        <li>
+                                            <span class="icon-Group"></span>
+                                            <p>128</p>
+                                        </li>
+                                        <li>
+                                            <span class="icon-Vector-1"></span>
+                                            <p>31</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="card-group">
+                                    <div class="card-title card--day">9-08-2016</div>
+                                    <ul>
+                                        <li>
+                                            <span class="icon-Group"></span>
+                                            <p>67</p>
+                                        </li>
+                                        <li>
+                                            <span class="icon-Vector-1"></span>
+                                            <p>22</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card__content--bottom">
+                                <p>Image upload</p>
+                                <p>11-04-2016</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/images/cards/img-6.png" alt="Card image" class="card__img">
+                        <div class="card__content">
+                            <div class="card__content--top">
+                                <div class="card-group">
+                                    <h2 class="card-title card--day">Today</h2>
+                                    <ul>
+                                        <li>
+                                            <span class="icon-Group"></span>
+                                            <p>128</p>
+                                        </li>
+                                        <li>
+                                            <span class="icon-Vector-1"></span>
+                                            <p>31</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="card-group">
+                                    <div class="card-title card--day">9-08-2016</div>
+                                    <ul>
+                                        <li>
+                                            <span class="icon-Group"></span>
+                                            <p>67</p>
+                                        </li>
+                                        <li>
+                                            <span class="icon-Vector-1"></span>
+                                            <p>22</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card__content--bottom">
+                                <p>Image upload</p>
+                                <p>11-04-2016</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/images/cards/img-7.png" alt="Card image" class="card__img">
+                        <div class="card__content">
+                            <div class="card__content--top">
+                                <div class="card-group">
+                                    <h2 class="card-title card--day">Today</h2>
+                                    <ul>
+                                        <li>
+                                            <span class="icon-Group"></span>
+                                            <p>128</p>
+                                        </li>
+                                        <li>
+                                            <span class="icon-Vector-1"></span>
+                                            <p>31</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="card-group">
+                                    <div class="card-title card--day">9-08-2016</div>
+                                    <ul>
+                                        <li>
+                                            <span class="icon-Group"></span>
+                                            <p>67</p>
+                                        </li>
+                                        <li>
+                                            <span class="icon-Vector-1"></span>
+                                            <p>22</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card__content--bottom">
+                                <p>Image upload</p>
+                                <p>11-04-2016</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/images/cards/img-8.png" alt="Card image" class="card__img">
+                        <div class="card__content">
+                            <div class="card__content--top">
+                                <div class="card-group">
+                                    <h2 class="card-title card--day">Today</h2>
+                                    <ul>
+                                        <li>
+                                            <span class="icon-Group"></span>
+                                            <p>128</p>
+                                        </li>
+                                        <li>
+                                            <span class="icon-Vector-1"></span>
+                                            <p>31</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="card-group">
+                                    <div class="card-title card--day">9-08-2016</div>
+                                    <ul>
+                                        <li>
+                                            <span class="icon-Group"></span>
+                                            <p>67</p>
+                                        </li>
+                                        <li>
+                                            <span class="icon-Vector-1"></span>
+                                            <p>22</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card__content--bottom">
+                                <p>Image upload</p>
+                                <p>11-04-2016</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Additional cards for load more functionality -->
+                    <div class="card hidden">
+                        <img src="./assets/images/cards/img-1.png" alt="Card image" class="card__img">
+                        <div class="card__content">
+                            <div class="card__content--top">
+                                <div class="card-group">
+                                    <h2 class="card-title card--day">Today</h2>
+                                    <ul>
+                                        <li>
+                                            <span class="icon-Group"></span>
+                                            <p>128</p>
+                                        </li>
+                                        <li>
+                                            <span class="icon-Vector-1"></span>
+                                            <p>31</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="card-group">
+                                    <div class="card-title card--day">9-08-2016</div>
+                                    <ul>
+                                        <li>
+                                            <span class="icon-Group"></span>
+                                            <p>67</p>
+                                        </li>
+                                        <li>
+                                            <span class="icon-Vector-1"></span>
+                                            <p>22</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card__content--bottom">
+                                <p>Image upload</p>
+                                <p>11-04-2016</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card hidden">
+                        <img src="./assets/images/cards/img-2.png" alt="Card image" class="card__img">
+                        <div class="card__content">
+                            <div class="card__content--top">
+                                <div class="card-group">
+                                    <h2 class="card-title card--day">Today</h2>
+                                    <ul>
+                                        <li>
+                                            <span class="icon-Group"></span>
+                                            <p>128</p>
+                                        </li>
+                                        <li>
+                                            <span class="icon-Vector-1"></span>
+                                            <p>31</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="card-group">
+                                    <div class="card-title card--day">9-08-2016</div>
+                                    <ul>
+                                        <li>
+                                            <span class="icon-Group"></span>
+                                            <p>67</p>
+                                        </li>
+                                        <li>
+                                            <span class="icon-Vector-1"></span>
+                                            <p>22</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card__content--bottom">
+                                <p>Image upload</p>
+                                <p>11-04-2016</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card hidden">
+                        <img src="./assets/images/cards/img-3.png" alt="Card image" class="card__img">
+                        <div class="card__content">
+                            <div class="card__content--top">
+                                <div class="card-group">
+                                    <h2 class="card-title card--day">Today</h2>
+                                    <ul>
+                                        <li>
+                                            <span class="icon-Group"></span>
+                                            <p>128</p>
+                                        </li>
+                                        <li>
+                                            <span class="icon-Vector-1"></span>
+                                            <p>31</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="card-group">
+                                    <div class="card-title card--day">9-08-2016</div>
+                                    <ul>
+                                        <li>
+                                            <span class="icon-Group"></span>
+                                            <p>67</p>
+                                        </li>
+                                        <li>
+                                            <span class="icon-Vector-1"></span>
+                                            <p>22</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card__content--bottom">
+                                <p>Image upload</p>
+                                <p>11-04-2016</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card hidden">
+                        <img src="./assets/images/cards/img-4.png" alt="Card image" class="card__img">
+                        <div class="card__content">
+                            <div class="card__content--top">
+                                <div class="card-group">
+                                    <h2 class="card-title card--day">Today</h2>
+                                    <ul>
+                                        <li>
+                                            <span class="icon-Group"></span>
+                                            <p>128</p>
+                                        </li>
+                                        <li>
+                                            <span class="icon-Vector-1"></span>
+                                            <p>31</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="card-group">
+                                    <div class="card-title card--day">9-08-2016</div>
+                                    <ul>
+                                        <li>
+                                            <span class="icon-Group"></span>
+                                            <p>67</p>
+                                        </li>
+                                        <li>
+                                            <span class="icon-Vector-1"></span>
+                                            <p>22</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card__content--bottom">
+                                <p>Image upload</p>
+                                <p>11-04-2016</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card hidden">
+                        <img src="./assets/images/cards/img-5.png" alt="Card image" class="card__img">
+                        <div class="card__content">
+                            <div class="card__content--top">
+                                <div class="card-group">
+                                    <h2 class="card-title card--day">Today</h2>
+                                    <ul>
+                                        <li>
+                                            <span class="icon-Group"></span>
+                                            <p>128</p>
+                                        </li>
+                                        <li>
+                                            <span class="icon-Vector-1"></span>
+                                            <p>31</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="card-group">
+                                    <div class="card-title card--day">9-08-2016</div>
+                                    <ul>
+                                        <li>
+                                            <span class="icon-Group"></span>
+                                            <p>67</p>
+                                        </li>
+                                        <li>
+                                            <span class="icon-Vector-1"></span>
+                                            <p>22</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card__content--bottom">
+                                <p>Image upload</p>
+                                <p>11-04-2016</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card hidden">
+                        <img src="./assets/images/cards/img-6.png" alt="Card image" class="card__img">
+                        <div class="card__content">
+                            <div class="card__content--top">
+                                <div class="card-group">
+                                    <h2 class="card-title card--day">Today</h2>
+                                    <ul>
+                                        <li>
+                                            <span class="icon-Group"></span>
+                                            <p>128</p>
+                                        </li>
+                                        <li>
+                                            <span class="icon-Vector-1"></span>
+                                            <p>31</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="card-group">
+                                    <div class="card-title card--day">9-08-2016</div>
+                                    <ul>
+                                        <li>
+                                            <span class="icon-Group"></span>
+                                            <p>67</p>
+                                        </li>
+                                        <li>
+                                            <span class="icon-Vector-1"></span>
+                                            <p>22</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card__content--bottom">
+                                <p>Image upload</p>
+                                <p>11-04-2016</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card hidden">
+                        <img src="./assets/images/cards/img-7.png" alt="Card image" class="card__img">
+                        <div class="card__content">
+                            <div class="card__content--top">
+                                <div class="card-group">
+                                    <h2 class="card-title card--day">Today</h2>
+                                    <ul>
+                                        <li>
+                                            <span class="icon-Group"></span>
+                                            <p>128</p>
+                                        </li>
+                                        <li>
+                                            <span class="icon-Vector-1"></span>
+                                            <p>31</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="card-group">
+                                    <div class="card-title card--day">9-08-2016</div>
+                                    <ul>
+                                        <li>
+                                            <span class="icon-Group"></span>
+                                            <p>67</p>
+                                        </li>
+                                        <li>
+                                            <span class="icon-Vector-1"></span>
+                                            <p>22</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card__content--bottom">
+                                <p>Image upload</p>
+                                <p>11-04-2016</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card hidden">
+                        <img src="./assets/images/cards/img-8.png" alt="Card image" class="card__img">
+                        <div class="card__content">
+                            <div class="card__content--top">
+                                <div class="card-group">
+                                    <h2 class="card-title card--day">Today</h2>
+                                    <ul>
+                                        <li>
+                                            <span class="icon-Group"></span>
+                                            <p>128</p>
+                                        </li>
+                                        <li>
+                                            <span class="icon-Vector-1"></span>
+                                            <p>31</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="card-group">
+                                    <div class="card-title card--day">9-08-2016</div>
+                                    <ul>
+                                        <li>
+                                            <span class="icon-Group"></span>
+                                            <p>67</p>
+                                        </li>
+                                        <li>
+                                            <span class="icon-Vector-1"></span>
+                                            <p>22</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card__content--bottom">
+                                <p>Image upload</p>
+                                <p>11-04-2016</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="button button--load-more">Load More</button>
+            </div>
+        </section>
+    </main>
+
+    <footer></footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+    <script src="./assets/script.js"></script>
+</body>
+
+</html>
